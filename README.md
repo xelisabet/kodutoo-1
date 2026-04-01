@@ -19,3 +19,4 @@ See on veebipõhine digitaalne kell, mis on loodud täitma ekraanisäästja või
 - Koodi loomisel on kasutatud Gemini tehisintellekti abi (struktuur ja algne idee mille põhjalt edasi minna).
 
 ### Ekraanipilt
+http://greeny.cs.tlu.ee/~beti/kodutoo-1/screenshot.png
