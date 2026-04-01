@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="clock.js" defer></script>
+    <title>Digitaalne Lauakell</title>
     <link rel="stylesheet" href="clock.css">
-    <title>Kell</title>
+    <script src="clock.js" defer></script>
 </head>
 
 <body>
     <!-- HTML struktureerimiseks: Ctrl+A Ctrl+K Ctrl+F -->
-    <div id="container">
-        <div id="clockContainer">
-            <div id="hours">00:</div>
-            <div id="minutes">00:</div>
-            <div id="seconds">00</div>
+   <div id="container">
+        <div id="clock-wrapper">
+            <div id="date-display">
+                <span id="day-name">Pühapäev</span>, 
+                <span id="date-full">01.01.2026</span>
+            </div>
+            <div id="clock-display">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
         </div>
-        <div id="dateContainer">
-            <div id="day">01.</div>
-            <div id="month">01.</div>
-            <div id="year">2000</div>
+
+        <div id="controls">
+            <button id="btn-font-plus" title="Suurenda teksti">+</button>
+            <button id="btn-font-minus" title="Vähenda teksti">-</button>
+            <button id="btn-color-bg" title="Muuda tausta">Taust</button>
+            <button id="btn-color-text" title="Muuda teksti">Tekst</button>
+            <button id="btn-format" title="12h/24h">Vorming</button>
+            <button id="btn-font-family" title="Muuda fonti">Font</button>
         </div>
-        <div id="buttonContainer">
-            <button id="bigger">+</button>
-            <button id="smaller">-</button>
-        </div>
+
+        <footer>
+            <p>Autor: Elisabet Peterson</p>
+            <p><a href="https://github.com/xelisabet/kodutoo-1" target="_blank">GitHub Repo</a></p>
+        </footer>
     </div>
 </body>
 </html>
